@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: index
-        image: leehou/index-web
+        image: nginx
         ports:
         - containerPort: 80
 
